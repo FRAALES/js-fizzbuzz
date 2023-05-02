@@ -1,4 +1,4 @@
-/* Regole generali */
+ /* Regole generali */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,17 +21,14 @@ h1{
     margin: 10px auto;
     font-size: 50px;
     width: 80%;
-    border: solid 1px violet;
 }
 
 
 
 /* Regole Main */
-#main-container{
+ #main-container{
     width: 80%;
     margin: 10px auto;
-    border: solid 1px violet;
-    height: 5000px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -46,4 +43,18 @@ h1{
     justify-content: center;
     align-items: center;
     border: solid 1px black;
+} 
+
+
+/* Regole cambio colore */
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
 }
