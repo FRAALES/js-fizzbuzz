@@ -27,7 +27,7 @@ h1{
 
 
 /* Regole Main */
-.main-container{
+#main-container{
     width: 80%;
     margin: 10px auto;
     border: solid 1px violet;
