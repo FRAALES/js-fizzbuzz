@@ -23,8 +23,8 @@ for(let i = 1; i <= 1000; i++) {
 
 
     // aggiungiamo la condizione che se i è multiplo di 3, allora invece del numero vedrò scritto FIX
-        {
-            if (i / 3 === 3)
-            console.log("FIX");
-        }
+        
+            if (i / 3 === 3) {
+                console.log("FIX");
+            }
 }
