@@ -32,4 +32,18 @@ h1{
     margin: 10px auto;
     border: solid 1px violet;
     height: 5000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main-container .square{
+    background-color: #1186af;
+    height: 100px;
+    width: calc(10% - 10px);
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
 }
