@@ -1,6 +1,7 @@
 // Seleziono contenitore
 
 const contenitore = document.getElementById("main-container");
+console.log(contenitore);
 
 
 
@@ -15,5 +16,5 @@ for(let i = 0; i <= 1000; i++) {
     quadrato.append(i);
 
     // aggiungiamo al contenitore 'elemento creato
-    contenitore.append(quadrato)
+    contenitore.append(quadrato);
 }
