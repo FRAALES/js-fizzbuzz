@@ -30,5 +30,6 @@ h1{
 .main-container{
     width: 80%;
     margin: 10px auto;
-    
+    border: solid 1px violet;
+    height: 5000px;
 }
