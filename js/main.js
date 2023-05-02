@@ -26,6 +26,7 @@ for(let i = 1; i <= 100; i++) {
         quadrato.classList.add("yellow");
     } else {
         quadrato.textContent = i;
+        quadrato.classList.add("color");
     }
 
     // aggiungiamo al contenitore elemento creato
