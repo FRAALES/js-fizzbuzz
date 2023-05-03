@@ -16,17 +16,20 @@ for(let i = 1; i <= 100; i++) {
 
     // Imposto il testo del quadrato in base al valore corrente
     if (i % 3 === 0 && i % 5 === 0) {
-        quadrato.textContent = "fixbux";
+        console.log(quadrato.textContent = "fixbux");
         quadrato.classList.add("red");
     } else if (i % 3 === 0) {
         quadrato.textContent = "fix";
+        console.log(quadrato.textContent = "fix");
         quadrato.classList.add("blue");
     } else if (i % 5 === 0) {
         quadrato.textContent = "bux";
+        console.log(quadrato.textContent = "bux");
         quadrato.classList.add("yellow");
     } else {
         quadrato.textContent = i;
         quadrato.classList.add("color");
+        console.log(quadrato.textContent = i);
     }
 
     // aggiungiamo al contenitore elemento creato
